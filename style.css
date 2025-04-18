@@ -1,13 +1,13 @@
 :root
 {
-      --background: #f9f6f7;
+      --background: #E6BEA4;
       --bodyfont: "Trebuchet MS", Trebuchet, sans-serif;
-      --bodyfontcolour: #de1c70;
+      --bodyfontcolour: #1F1509;
       --glow1: #326359;
       --glow2: #00ffcc;
-      --navbarcolour: #f1d4e0;
-      --navbaraccent: #ebafcf;
-      --navbarhover: #f1d4e0;
+      --navbarcolour: #342109;
+      --navbaraccent: #764638;
+      --navbarhover: #bbb0b5;
 }
 
 body {
