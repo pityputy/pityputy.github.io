@@ -28,7 +28,12 @@ body {
       line-height: 3;
     }
     
-
+    h2 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 2rem;
+      text-align: center;
+      line-height: 2;
+    }
 
     pre
     {
@@ -84,4 +89,18 @@ body {
       display: none;
     }
 
-    
+    .row {
+      background-color: var(--background);
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .column {
+      background-color: var(--background);
+      flex: 1 1 50%;
+      box-sizing: border-box;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
