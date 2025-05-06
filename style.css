@@ -1,50 +1,73 @@
 :root
 {
-      --background: #E6BEA4;
+      --background: #ffe4c3;
       --bodyfont: "Trebuchet MS", Trebuchet, sans-serif;
-      --bodyfontcolour: #1F1509;
+      --bodyfontcolour: #100216;
+      --accent: #541476;
       --glow1: #326359;
       --glow2: #00ffcc;
-      --navbarcolour: #342109;
-      --navbaraccent: #764638;
-      --navbarhover: #bbb0b5;
+      --navbarcolour: #e878b4;
+      --navbaraccent: #e878b4;
+      --navbarhover: #aab3fa;
+
 }
 
 body {
       background-color: var(--background);
       /*background-image: linear-gradient(#e31a1a, #5e2dd8);*/
       color: var(--bodyfontcolour);
-      font-family: var(--bodyfont);
+      font-family: var(--bodyfont) !important;
+      font-size: 2.5vh;
       padding: 5vw;
       line-height: 5vh;
       text-align: justify;
     }
     
     h1 {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 6vw;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, !important;
+      font-size: 9vh;
       /*animation: glow 2s ease-in-out infinite alternate;*/
       text-align: center;
       line-height: 21vh;
     }
     
     h2 {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 4vw;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, !important;
+      font-size: 6vh;
       text-align: center;
       line-height: 14vh;
     }
 
     pre
     {
-      background-color: #f0f0f0;
+      background-color: var(--navbarhover);
       font-family: 'Times New Roman', Times, serif;
       border-radius: 5px;
-      padding: 2rem;
+      padding: 3vw;
       overflow-x: auto;
-      font-size: 1.2rem;
+      font-size: 1.5vh;
     }
     
+    a:link {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: var(--bodyfontcolour);
+      text-decoration: underline;
+    }
+
     @keyframes glow {
       from { text-shadow: 0 0 5px var(--glow1); }
       to { text-shadow: 0 0 20px var(--glow2); }
@@ -83,8 +106,6 @@ body {
       color: black;
     }
     
-    
-    
     .navbar .icon {
       display: none;
     }
@@ -103,4 +124,12 @@ body {
       content: "";
       display: table;
       clear: both;
+    }
+
+    .badge {
+      background-color: var(--navbaraccent);
+      color: white;
+      padding: 4px 8px;
+      text-align: center;
+      border-radius: 5px;
     }
