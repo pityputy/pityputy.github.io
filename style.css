@@ -6,8 +6,6 @@
       --bodyfont: "Trebuchet MS", Trebuchet, sans-serif;
       --bodyfontcolour: #100216;
       --accent: #541476;
-      --glow1: #326359;
-      --glow2: #00ffcc;
       --navbarcolour: #e878b4;
       --navbaraccent: #e878b4;
       --navbarhover: #aab3fa;
@@ -28,7 +26,6 @@ body {
     h1 {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, !important;
       font-size: 9vh;
-      /*animation: glow 2s ease-in-out infinite alternate;*/
       text-align: center;
       line-height: 21vh;
     }
@@ -70,10 +67,6 @@ body {
       text-decoration: underline;
     }
 
-    @keyframes glow {
-      from { text-shadow: 0 0 5px var(--glow1); }
-      to { text-shadow: 0 0 20px var(--glow2); }
-    }
     .navbar {
       position: sticky;
       top: 0;
