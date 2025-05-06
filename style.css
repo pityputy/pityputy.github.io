@@ -16,23 +16,23 @@ body {
       color: var(--bodyfontcolour);
       font-family: var(--bodyfont);
       padding: 5vw;
-      line-height: 1.6;
+      line-height: 5vh;
       text-align: justify;
     }
     
     h1 {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 12vw;
+      font-size: 6vw;
       /*animation: glow 2s ease-in-out infinite alternate;*/
       text-align: center;
-      line-height: 3;
+      line-height: 21vh;
     }
     
     h2 {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 8vw;
+      font-size: 4vw;
       text-align: center;
-      line-height: 2;
+      line-height: 14vh;
     }
 
     pre
