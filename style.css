@@ -2,13 +2,13 @@
 
 :root
 {
-      --background: #ffe4c3;
-      --bodyfont: "Trebuchet MS", Trebuchet, sans-serif;
-      --bodyfontcolour: #100216;
-      --accent: #541476;
-      --navbarcolour: #e878b4;
-      --navbaraccent: #e878b4;
-      --navbarhover: #aab3fa;
+      --background: #e4e4e4;
+      --bodyfont: "Consolas", Consolas, monospace;
+      --bodyfontcolour: #000000;
+      --accent: #137f33;
+      --navbarcolour: #1d5f1a;
+      --navbaraccent: #1d5f1a;
+      --navbarhover: #137f33;
 
 }
 
@@ -134,4 +134,10 @@ body {
       padding: 4px 8px;
       text-align: center;
       border-radius: 5px;
+    }
+
+    hr.divider {
+      border: none;
+      border-top: 3px solid var(--accent);
+      margin: 2rem 0;
     }

@@ -1,0 +1,27 @@
+VIBRANT CREAM:
+
+--background: #ffe4c3;
+      --bodyfont: "Trebuchet MS", Trebuchet, sans-serif;
+      --bodyfontcolour: #100216;
+      --accent: #541476;
+      --navbarcolour: #e878b4;
+      --navbaraccent: #e878b4;
+      --navbarhover: #aab3fa;
+
+CALM PINK AND CREAM
+--background: #fdfbec;
+      --bodyfont: "Consolas", Consolas, monospace;
+      --bodyfontcolour: #3f112c;
+      --accent: #90206e;
+      --navbarcolour: #b60c67;
+      --navbaraccent: #b60c67;
+      --navbarhover: #a855c4;
+
+CONSOLE BABY BLUE
+--background: #d2fffc;
+      --bodyfont: "Consolas", Consolas, monospace;
+      --bodyfontcolour: #160a3d;
+      --accent: #4174c1;
+      --navbarcolour: #5d6ec6;
+      --navbaraccent: #5d6ec6;
+      --navbarhover: #55b9c4;
