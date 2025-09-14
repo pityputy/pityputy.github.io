@@ -12,6 +12,10 @@
 
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
       background-color: var(--background);
       /*background-image: linear-gradient(#e31a1a, #5e2dd8);*/
@@ -140,4 +144,16 @@ body {
       border: none;
       border-top: 3px solid var(--accent);
       margin: 2rem 0;
+    }
+
+    .footer {
+      position: sticky;
+      bottom: 0;
+      width: 100%;
+      margin: auto;
+      padding: 3vh;
+      text-align: center;
+      background: var(--navbarcolour);
+      color: white;
+      font-size: 2vh;
     }
