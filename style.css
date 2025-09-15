@@ -29,21 +29,21 @@ body {
     
     h1 {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, !important;
-      font-size: 9vh;
+      font-size: 7vh;
       text-align: center;
-      line-height: 21vh;
+      line-height: 20vh;
     }
     
     h2 {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, !important;
-      font-size: 6vh;
+      font-size: 5vh;
       text-align: center;
-      line-height: 14vh;
+      line-height: 15vh;
     }
 
     h3 {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, !important;
-      font-size: 4vh;
+      font-size: 3vh;
       text-align: center;
       line-height: 10vh;
     }

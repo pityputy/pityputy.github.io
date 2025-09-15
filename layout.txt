@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hu">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<head>
+  <div class="navbar" id="myNavbar">
+    <a href="index.html" class="nav-link">Főoldal</a>
+    <a href="library.html" class="nav-link">Könyvtár</a>
+    <a href="contact.html" class="nav-link">Kontakt</a>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">☰</a>
+  </div>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Levi Gondolatai</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main> {% block content %} {% endblock %} </main>
+  <div class="footer">
+    &copy; 2025 | Ráthonyi Levente Marcell | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+  </div>
+</body>
+</html>
