@@ -147,7 +147,6 @@ body {
     }
 
     .footer {
-      position: sticky;
       bottom: 0;
       width: 100%;
       margin: auto;

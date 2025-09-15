@@ -14,7 +14,11 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main> {% block content %} {% endblock %} </main>
+
+  <main>
+
+  </main>
+  
   <div class="footer">
     &copy; 2025 | Ráthonyi Levente Marcell | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
   </div>
