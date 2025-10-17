@@ -156,3 +156,30 @@ body {
       color: white;
       font-size: 2vh;
     }
+
+    .accentbox {
+      border: 5vw;
+      border-radius: 2.5vw;
+      background-color: var(--accent);    
+      text-align: center;
+    }
+
+    a.accent:link {
+      color: var(--background);
+      text-decoration: none;
+    }
+    
+    a.accent:visited {
+      color: var(--background);
+      text-decoration: none;
+    }
+    
+    a.accent:hover {
+      color: var(--background);
+      text-decoration: underline;
+    }
+    
+    a.accent:active {
+      color: var(--background);
+      text-decoration: underline;
+    }
