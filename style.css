@@ -48,6 +48,13 @@ body {
       line-height: 10vh;
     }
 
+    h4 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, !important;
+      font-size: 4vh;
+      text-align: justify;
+      line-height: 7vh;
+    }
+
     pre
     {
       background-color: var(--navbarhover);
